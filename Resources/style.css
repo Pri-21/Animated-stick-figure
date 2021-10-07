@@ -4,7 +4,7 @@
   background-color: rgb(103, 187, 202);
 }
 #figure {
-  padding-top: 40px;
+  padding: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,5 +28,15 @@
 #right-arm {
   border: 2px black solid;
   transform: translateY(-170px) rotate(-40deg) translateX(35px);
+  height: 80px;
+}
+#left-leg {
+  border: 2px black solid;
+  transform: translateY(-159px) rotate(37deg) translateX(-33px);
+  height: 80px;
+}
+#right-leg {
+  border: 2px black solid;
+  transform: translateY(-245px) rotate(-37deg) translateX(33px);
   height: 80px;
 }
