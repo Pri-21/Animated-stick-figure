@@ -11,7 +11,7 @@
   align-items: center;
 }
 #head {
-  border: 2px black solid;
+  border: 3px black solid;
   height: 60px;
   width: 60px;
   border-radius: 50%;
@@ -19,4 +19,14 @@
 #body {
   border: 2px black solid;
   height: 100px;
+}
+#left-arm {
+  border: 2px black solid;
+  transform: translateY(-85px) rotate(40deg) translateX(-35px);
+  height: 80px;
+}
+#right-arm {
+  border: 2px black solid;
+  transform: translateY(-170px) rotate(-40deg) translateX(35px);
+  height: 80px;
 }
