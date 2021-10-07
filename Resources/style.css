@@ -6,11 +6,17 @@
 #figure {
   padding-top: 40px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 #head {
   border: 2px black solid;
   height: 60px;
   width: 60px;
   border-radius: 50%;
+}
+#body {
+  border: 2px black solid;
+  height: 100px;
 }
