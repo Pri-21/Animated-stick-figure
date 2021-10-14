@@ -45,3 +45,16 @@
   height: 500px;
   transform: rotate(90deg) translateX(-520px);
 }
+button {
+  background-color: cornflowerblue;
+  font-size: 16px;
+  color: black;
+  padding: 10px;
+  border-radius: 4px;
+  position: relative;
+  bottom: 750px;
+}
+
+button:hover {
+  color: white;
+}
