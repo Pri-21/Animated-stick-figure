@@ -1,14 +1,13 @@
 #wrapper {
-  height: 400px;
+  height: 300px;
   width: auto;
   background-color: rgb(103, 187, 202);
 }
 #figure {
-  padding-top: 70px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  padding-top: 50px;
 }
 #head {
   border: 3px black solid;
@@ -42,19 +41,24 @@
 }
 #floor {
   border: 2px black solid;
-  height: 500px;
-  transform: rotate(90deg) translateX(-520px);
+  height: 0px;
+  width: auto;
+  transform: rotate(180deg) translateY(270px);
 }
-button {
-  background-color: cornflowerblue;
+#button {
+  background-color: rgb(103, 187, 202);
+  border: 2px solid black;
   font-size: 16px;
   color: black;
-  padding: 10px;
+  padding: 10px 15px;
   border-radius: 4px;
-  position: relative;
-  bottom: 750px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(50%);
 }
 
-button:hover {
+#button:hover {
   color: white;
+  background-color: black;
 }
